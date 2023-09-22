@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TiendaPro</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="logo"><a href="index.html">TiendaPro</a></div>
+        <div class="button-menu" id="abrir">
+          <img src="img/menu-open.png" alt="abrir-menu" />
+        </div>
+        <nav class="nav animation" id="navBar">
+          <div class="cerrar-menu" id="cerrar">
+            <img src="img/menu-close.png" alt="cerraMenu" />
+          </div>
+          <hr class="divisor">
+          <ul class="nav__list">
+            <li class="nav__list-link boton-categoria" id="todos">Todos los Productos</li>
+            <li class="nav__list-link boton-categoria" id="abrigos">Abrigos</li>
+            <li class="nav__list-link boton-categoria" id="camisetas">Camisetas</li>
+            <li class="nav__list-link boton-categoria" id="pantalones">Pantalones</li>
+            <li class="nav__list-link" id="carrito"><a href="carrito.html"><img class="img-carrito" src="img/carrito.png" alt="carrito"></a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <h2 class="titulo__productos">Todos los Productos</h2>
+        <div class="contenedor__productos" id="contenedor__productos">
+      </main>
+
+      <footer>
+        <div class="copy"><p>© MarcosCisneros 2023</p></div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
