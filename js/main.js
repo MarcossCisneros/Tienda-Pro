@@ -1,6 +1,6 @@
 
 //mi funcion principal
-function principal(productosBD) {
+function principal() {
   //array de productos
   const productos = [
   {
