@@ -1,4 +1,4 @@
-
+principal();
 //mi funcion principal
 function principal() {
   //array de productos
